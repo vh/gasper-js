@@ -24,9 +24,9 @@ describe('Gasper', function() {
         if (header.type !== 'directory') {
           header.name = `${header.name}.txt`;
           stream.pipe(this.out.entry(header));
-        } else {
-          stream.end();
         }
+
+        stream.resume();
       })
       .on('finish', function() {
         this.out.finalize();
