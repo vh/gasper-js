@@ -1,3 +1,3 @@
 # gasper-js
 
-A tiny Gasper library for Javascript.
+Gasper library for Javascript.
