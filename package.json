@@ -18,7 +18,7 @@
     "tar-stream": "^2.1.2"
   },
   "devDependencies": {
-    "mocha": "^8.0.1",
+    "mocha": "^9.0.2",
     "tar-fs": "^2.1.0"
   }
 }
