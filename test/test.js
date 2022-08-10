@@ -57,7 +57,7 @@ describe('Gasper', function() {
       .start();
   });
 
-  it('souldn\'t be a source', function(done) {
+  it('shouldn\'t be a source', function(done) {
     new Gasper()
       .removeAllListeners('error')
       .on('error', () => done())
