@@ -15,7 +15,7 @@
     "gasper"
   ],
   "dependencies": {
-    "tar-stream": "^2.2.0"
+    "tar-stream": "^3.0.0"
   },
   "devDependencies": {
     "mocha": "^10.0.0",
