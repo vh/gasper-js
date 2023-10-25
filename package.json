@@ -1,6 +1,5 @@
 {
   "name": "gasper",
-  "version": "0.0.4",
   "description": "Gasper library for Javascript",
   "author": "Vadim Homchik",
   "license": "MIT",
@@ -15,10 +14,10 @@
     "gasper"
   ],
   "dependencies": {
-    "tar-stream": "^3.0.0"
+    "tar-stream": "^3.1.6"
   },
   "devDependencies": {
     "mocha": "^10.2.0",
-    "tar-fs": "^3.0.2"
+    "tar-fs": "^3.0.4"
   }
 }
